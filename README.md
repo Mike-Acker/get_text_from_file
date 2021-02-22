@@ -10,7 +10,7 @@ e.g. script does a gpg --list-key and then needs the fingerprint data
 gpg --list-key alice >alice-key.txt
 get_test_from_file alice-key.txt 2 7 40 message.txt
 fingerprint="$(<message.txt)"
-//
+
 return codes: 0 successful
   1 wrong number of command line arguments;
   2 source file not found;
