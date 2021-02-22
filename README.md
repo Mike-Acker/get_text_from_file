@@ -11,3 +11,5 @@ gpg --list-key alice >alice-key.txt
 get_test_from_file alice-key.txt 2 7 40 message.txt
 fingerprint="$(<message.txt)"
 //
+
+compile this and store the executable in usr/local/bin
